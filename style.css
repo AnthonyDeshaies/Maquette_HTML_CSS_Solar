@@ -1,0 +1,328 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------HEADER-------------------------------- */
+header {
+  width: 100%;
+  height: 800px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(31, 117, 31, 0.5)), to(rgba(45, 83, 167, 0.7))), url(images/main_img.jpg);
+  background-image: linear-gradient(rgba(31, 117, 31, 0.5), rgba(45, 83, 167, 0.7)), url(images/main_img.jpg);
+  background-size: cover;
+  /*------------------Navbar------------------ */
+  /*------------------Title------------------ */
+}
+
+header .navbar a {
+  font-weight: bold;
+  color: white !important;
+  width: 120px;
+}
+
+header .navbar .navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header .navbar .nav_btn {
+  background-color: #63ac63;
+  border: none;
+  color: white;
+  font-weight: bold;
+  width: 140px;
+}
+
+header .title {
+  text-align: center;
+  margin-top: 250px;
+}
+
+header .title h1 {
+  color: white;
+  font-size: 60px;
+}
+
+/*--------------------SECTION "ABOUT US"-------------------------------- */
+.us {
+  margin-top: 180px;
+}
+
+.us .left_col {
+  text-align: left;
+}
+
+.us .right_col {
+  padding-top: 10px;
+  text-align: left;
+}
+
+.us .right_col h2 {
+  font-weight: bold;
+}
+
+.us .right_col p {
+  margin: 25px 0 30px 0;
+}
+
+.us .right_col .us_btn {
+  background-color: #63ac63;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 180px;
+}
+
+/*--------------------SECTION "SERVICES"-------------------------------- */
+.services {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.services img {
+  height: 80px;
+  margin-top: 50px;
+}
+
+/*--------------------SECTION "OUR PROJECT"-------------------------------- */
+.our {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.our h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.our img {
+  width: 100%;
+  height: 300px;
+}
+
+.our .our_btn {
+  margin-top: 80px;
+  background-color: #63ac63;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 120px;
+}
+
+/*--------------------SECTION "POSTS"-------------------------------- */
+.posts {
+  background: -webkit-gradient(linear, right top, left top, from(#2da02d), to(#2141a8));
+  background: linear-gradient(to left, #2da02d, #2141a8);
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.posts .quotes {
+  height: 80px;
+  margin: 100px 0 50px 0;
+}
+
+.posts p {
+  margin-bottom: 40px;
+}
+
+.posts span {
+  font-weight: bold;
+}
+
+.posts .photos {
+  padding-bottom: 80px;
+}
+
+.posts .photos .left_arrow, .posts .photos .right_arrow {
+  height: 80px;
+}
+
+.posts .photos .client_img1 {
+  height: 70px;
+}
+
+.posts .photos .client_img2 {
+  height: 75px;
+}
+
+.posts .photos .client_img3 {
+  height: 120px;
+}
+
+.posts .photos .client_img4 {
+  height: 80px;
+}
+
+.posts .photos .client_img5 {
+  height: 70px;
+}
+
+/*--------------------SECTION "CONTACT US"-------------------------------- */
+.contact {
+  width: 100%;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.contact h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.contact .adress {
+  text-align: left;
+}
+
+.contact span {
+  font-weight: bold;
+}
+
+.contact form input {
+  width: 100%;
+}
+
+.contact .message {
+  height: 250px;
+}
+
+.contact .contact_btn {
+  margin-top: 80px;
+  background-color: #63ac63;
+  border: none;
+  color: white;
+  height: 40px;
+  width: 180px;
+}
+
+/*--------------------FOOTER-------------------------------- */
+footer {
+  width: 100%;
+  height: 400px;
+  margin-top: 150px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(62, 165, 62, 0.7)), to(rgba(45, 83, 167, 0.8))), url(images/footer.jpg);
+  background-image: linear-gradient(rgba(62, 165, 62, 0.7), rgba(45, 83, 167, 0.8)), url(images/footer.jpg);
+  background-size: cover;
+  color: white;
+}
+
+footer h3 {
+  margin-top: 80px;
+}
+
+/* ------------------------------REPONSIVE-------------------------------*/
+/*-------------------RESPONSIVE "HEADER" ------------------------*/
+@media screen and (max-width: 944px) {
+  header .tittle h1 {
+    font-size: 30px;
+  }
+}
+
+/*----------------RESPONSIVE "ABOUT US"-----------*/
+@media screen and (max-width: 944px) {
+  .us_img {
+    width: 100%;
+  }
+}
+
+/*-----------------RESPONSIVE "OUR PROJECT"------- */
+@media screen and (max-width: 992px) {
+  .our img {
+    height: auto;
+  }
+}
+
+/*------------------SECTION "POSTS"---------------- */
+@media screen and (max-width: 768px) {
+  .posts .photos {
+    padding-bottom: 80px;
+  }
+  .posts .photos .left_arrow, .posts .photos .right_arrow {
+    height: 60px;
+  }
+  .posts .photos .client_img1 {
+    height: 40px;
+  }
+  .posts .photos .client_img2 {
+    height: 60px;
+  }
+  .posts .photos .client_img3 {
+    height: 90px;
+  }
+  .posts .photos .client_img4 {
+    height: 60px;
+  }
+  .posts .photos .client_img5 {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .posts .photos {
+    padding-bottom: 80px;
+  }
+  .posts .photos .left_arrow, .posts .photos .right_arrow {
+    height: 40px;
+  }
+  .posts .photos .client_img1 {
+    height: 30px;
+  }
+  .posts .photos .client_img2 {
+    height: 30px;
+  }
+  .posts .photos .client_img3 {
+    height: 60px;
+  }
+  .posts .photos .client_img4 {
+    height: 40px;
+  }
+  .posts .photos .client_img5 {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 298px) {
+  .posts .photos {
+    padding-bottom: 80px;
+  }
+  .posts .photos .left_arrow, .posts .photos .right_arrow {
+    height: 40px;
+  }
+  .posts .photos .client_img1 {
+    height: 30px;
+  }
+  .posts .photos .client_img2 {
+    height: 30px;
+  }
+  .posts .photos .client_img3 {
+    height: 60px;
+  }
+  .posts .photos .client_img4 {
+    height: 40px;
+  }
+  .posts .photos .client_img5 {
+    height: 30px;
+  }
+}
+
+/*-----------------RESPONSIVE FOOTER----------------*/
+@media screen and (max-width: 992px) {
+  footer {
+    font-size: 10px;
+  }
+  footer h3 {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  footer {
+    font-size: 7px;
+  }
+  footer h3 {
+    margin-top: 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

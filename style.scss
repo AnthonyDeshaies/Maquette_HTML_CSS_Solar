@@ -1,0 +1,418 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--------------------HEADER-------------------------------- */
+
+header
+{
+    width: 100%;
+    height: 800px;
+    background-image: linear-gradient(rgba(31, 117, 31, 0.5), 
+                                rgba(45, 83, 167, 0.7)
+                                ),
+                      url(images/main_img.jpg);
+    background-size: cover;
+
+    /*------------------Navbar------------------ */
+        
+        .navbar
+        {
+            a
+            {
+                font-weight: bold;
+                color: rgb(255, 255, 255) !important;
+                width: 120px;
+            }
+            .navbar-brand
+            {
+                  font-size: 30px;
+                  font-weight: bold;  
+            }
+            .nav_btn
+            {
+                background-color: rgb(99, 172, 99);
+                border: none;
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                width: 140px;
+            }
+        }
+    /*------------------Title------------------ */
+        .title
+        {           
+            text-align: center;
+            // display: flex;
+            // flex-direction: column;
+            // justify-content: center;
+            // align-items: center;
+            margin-top: 250px;
+        h1
+        {
+            color: rgb(255, 255, 255);
+            font-size: 60px;
+        }         
+        }
+}
+
+/*--------------------SECTION "ABOUT US"-------------------------------- */
+
+.us
+{
+    margin-top: 180px;
+        .left_col
+        {
+            text-align: left;
+        }
+        .right_col
+        {
+            // width: 480px;
+            padding-top: 10px;
+            text-align: left;
+
+                h2
+                {
+                    font-weight: bold;
+                }
+                p
+                {
+                    margin: 25px 0 30px 0; 
+                }
+                .us_btn
+                {
+                    background-color: rgb(99, 172, 99);
+                    border: none;
+                    color: rgb(255, 255, 255);
+                    height: 40px;
+                    width: 180px;
+                }
+            }
+}
+
+/*--------------------SECTION "SERVICES"-------------------------------- */
+
+.services
+{
+    margin-top: 100px;
+    text-align: center;
+        img
+        {
+            height: 80px;
+            margin-top: 50px;
+        }
+}
+
+/*--------------------SECTION "OUR PROJECT"-------------------------------- */
+.our
+{
+    text-align: center;
+    margin-top: 150px;
+
+        h2
+        {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 70px;
+        }
+        img
+        {
+            width: 100%;
+            height: 300px;
+        }
+
+        .our_btn
+        {
+            margin-top: 80px;
+            background-color: rgb(99, 172, 99);
+            border: none;
+            color: rgb(255, 255, 255);
+            height: 40px;
+            width: 120px;
+        }
+}
+
+/*--------------------SECTION "POSTS"-------------------------------- */
+
+.posts
+{
+    background: linear-gradient(to left, rgb(45, 160, 45), rgb(33, 65, 168));
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+        
+        .quotes
+        {
+            height: 80px;
+            margin: 100px 0 50px 0;
+        }
+        p
+        {
+            margin-bottom: 40px;
+        }
+        span
+        {
+            font-weight: bold;
+        }
+        .photos
+        {
+            padding-bottom: 80px;    
+                
+                .left_arrow, .right_arrow
+                {
+                    height: 80px;
+                }
+                .client_img1
+                {
+                    height: 70px;
+                }
+                .client_img2
+                {
+                    height: 75px;
+                }
+                .client_img3
+                {
+                    height: 120px;
+                }
+                .client_img4
+                {
+                    height: 80px;
+                }
+                .client_img5
+                {
+                    height: 70px;
+                }
+        }
+}
+
+/*--------------------SECTION "CONTACT US"-------------------------------- */
+
+.contact
+{
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+
+        h2
+        {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 80px;
+        }
+        .adress
+        {
+            text-align: left;
+        }
+        span
+        {
+            font-weight: bold;
+        }
+        form input
+        {
+            width: 100%;
+        }
+        .message
+        {
+            height: 250px;
+        }
+        .contact_btn
+        {
+            margin-top: 80px;
+            background-color: rgb(99, 172, 99);
+            border: none;
+            color: rgb(255, 255, 255);
+            height: 40px;
+            width: 180px;
+        }
+}
+
+/*--------------------FOOTER-------------------------------- */
+
+footer
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 150px;
+    background-image: linear-gradient(rgba(62, 165, 62, 0.7), 
+                                rgba(45, 83, 167, 0.8)
+                                ),
+                      url(images/footer.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+
+        h3
+        {
+            margin-top: 80px;
+        }
+}
+
+
+/* ------------------------------REPONSIVE-------------------------------*/
+
+/*-------------------RESPONSIVE "HEADER" ------------------------*/
+
+@media screen and (max-width: 944px)
+{
+    header .tittle h1
+   {
+       font-size: 30px;
+   }
+}
+
+/*----------------RESPONSIVE "ABOUT US"-----------*/
+
+@media screen and (max-width: 944px)
+{
+    .us_img
+    {
+        width: 100%;
+    }
+}
+
+/*-----------------RESPONSIVE "OUR PROJECT"------- */
+
+@media screen and (max-width: 992px)
+{
+    .our img {
+        height: auto;
+      }
+}
+
+/*------------------SECTION "POSTS"---------------- */
+
+
+
+@media screen and (max-width: 768px)
+{
+    .posts
+    {
+        .photos
+        {
+            padding-bottom: 80px;    
+                
+                .left_arrow, .right_arrow
+                {
+                    height: 60px;
+                }
+                .client_img1
+                {
+                    height: 40px;
+                }
+                .client_img2
+                {
+                    height: 60px;
+                }
+                .client_img3
+                {
+                    height: 90px;
+                }
+                .client_img4
+                {
+                    height: 60px;
+                }
+                .client_img5
+                {
+                    height: 50px;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 440px)
+{
+    .posts
+    {
+        .photos
+        {
+            padding-bottom: 80px;    
+                
+                .left_arrow, .right_arrow
+                {
+                    height: 40px;
+                }
+                .client_img1
+                {
+                    height: 30px;
+                }
+                .client_img2
+                {
+                    height: 30px;
+                }
+                .client_img3
+                {
+                    height: 60px;
+                }
+                .client_img4
+                {
+                    height: 40px;
+                }
+                .client_img5
+                {
+                    height: 30px;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 298px)
+{
+    .posts
+    {
+        .photos
+        {
+            padding-bottom: 80px;    
+                
+                .left_arrow, .right_arrow
+                {
+                    height: 40px;
+                }
+                .client_img1
+                {
+                    height: 30px;
+                }
+                .client_img2
+                {
+                    height: 30px;
+                }
+                .client_img3
+                {
+                    height: 60px;
+                }
+                .client_img4
+                {
+                    height: 40px;
+                }
+                .client_img5
+                {
+                    height: 30px;
+                }
+        }
+    }
+}
+
+/*-----------------RESPONSIVE FOOTER----------------*/
+
+@media screen and (max-width: 992px)
+{
+    footer
+    {
+        font-size: 10px;
+    
+            h3
+            {
+                margin: 0;
+            }
+    }
+}
+
+@media screen and (max-width: 780px)
+{
+    footer
+    {
+        font-size: 7px;
+        h3
+        {
+            margin-top: 0;
+        }
+    }
+}
